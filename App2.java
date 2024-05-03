@@ -1,7 +1,7 @@
 package newthing;
 import javax.swing.JOptionPane;
 
-public class App2 { 
+public class App2 { //should this file perhaps be called main.java?
     
 
 
