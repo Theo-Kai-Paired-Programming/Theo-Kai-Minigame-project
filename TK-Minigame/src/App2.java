@@ -33,7 +33,8 @@ public class App2 {
                         PrimeObject.PrimeChecker(Integer.valueOf(numex));
                     break;
                     case 1:
-                        System.out.println("run survey");
+                      Survey surveyObject = new Survey();
+                        surveyObject.mymethod();
                         break;
                     case 2:
                         System.out.println("run Calendar");
