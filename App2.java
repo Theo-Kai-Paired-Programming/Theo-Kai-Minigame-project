@@ -1,4 +1,3 @@
-package newthing;
 import javax.swing.JOptionPane;
 
 public class App2 { 
