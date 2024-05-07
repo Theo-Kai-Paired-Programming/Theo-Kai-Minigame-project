@@ -30,7 +30,8 @@ public class App2 {
                         System.out.println("run trivia");
                         break;
                     case 1:
-                        System.out.println("run survey");
+                    Survey surveyObject = new Survey();
+                    surveyObject.mymethod();
                         break;
                     case 2:
                         System.out.println("run Calendar");
