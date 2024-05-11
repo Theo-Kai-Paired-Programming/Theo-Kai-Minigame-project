@@ -6,3 +6,4 @@ List of Methods:
 GuessNumber.Java: A random number guesser that runs until you guess the correct number. Guessing incorrectly will give you hints.
 Survey.Java: Asks you to anwser a list of random questions.
 WillansFormula.Java: Asks user to input a numerator and denominator for a fraction, program will then try to find a fraction that matches the user's fraction as a decimal.
+FractionApproximator: uses recursive fractions and a bunch of fancy math to find a fraction very close to a given decimal input
