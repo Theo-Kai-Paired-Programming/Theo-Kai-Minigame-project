@@ -1,7 +1,7 @@
-import java.awt.event.ActionListener;
-import java.util.List;
-
-import javax.swing.JFrame;
+import java.awt.event.ActionListener; //fyi theo did a lot of work commenting our whole project 
+import java.util.List; //so im not gonna redo it all out of respect
+//but im 99% sure that he forgot to push his changes so.....
+import javax.swing.JFrame; //maybe ask on monday?
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JSlider;
@@ -13,9 +13,8 @@ public class App2 implements ChangeListener { //this also, apparently, MUST exis
 
         String pswd = "";
 
-        while (!pswd.equals("password123")) {
+        while (!pswd.equals("password123")) { 
         pswd = JOptionPane.showInputDialog("Enter the Password");
-        System.out.println("aaa" + pswd + "aaa");
 
         }
 
@@ -47,6 +46,7 @@ public class App2 implements ChangeListener { //this also, apparently, MUST exis
                     case 2:
                     GuessNumber guessObject = new GuessNumber();
                     guessObject.myMethod();
+                    break;
                     case 3:
                     
                         String decimal = JOptionPane.showInputDialog("Please enter a decimal value you would like to approximate");
